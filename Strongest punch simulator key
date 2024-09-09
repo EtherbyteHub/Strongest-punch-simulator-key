@@ -42,7 +42,7 @@ function destroy()
 local success, errorMsg = pcall(function()
         game:GetService("CoreGui").Orion:Destroy()
     end)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EtherbyteHub/ninja-legend/main/ninja%20legend",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EtherbyteHub/Strongest-Punch-simulator-script/main/Strongest%20punch%20simulator%20script",true))()
     
     if not success then
         warn("Failed to destroy UI: " .. errorMsg)
